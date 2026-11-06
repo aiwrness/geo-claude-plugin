@@ -1,0 +1,12 @@
+{
+  "name": "aiwrness-geo",
+  "version": "0.1.0",
+  "description": "GEO skills that work with your real AI visibility data. General skills prepare your brand, site and content; with the aiwrness connector, the data skills measure, find blindspots and turn insights into an action plan.",
+  "author": {
+    "name": "aiwrness",
+    "url": "https://aiwrness.com"
+  },
+  "homepage": "https://aiwrness.com",
+  "license": "UNLICENSED",
+  "keywords": ["geo", "aeo", "ai-search", "ai-visibility", "llm-seo", "aiwrness"]
+}
