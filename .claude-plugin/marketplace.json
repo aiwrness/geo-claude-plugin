@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "GEO skills for Claude that work with your real AI visibility data from aiwrness.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "displayName": "aiwrness GEO",
       "source": "./plugins/aiwrness-geo",
       "description": "23 GEO (generative engine optimisation) skills. Without an account: brand fact sheet, site readiness, AI technical files, rewriting for AI, comparison pages and launch checklists. With the aiwrness connector: metrics, blindspots, competitor and product visibility, AI fact checks, cited sources, query fan-out briefs, content refresh, an action plan, impact checks, AI traffic, battlecards, positioning and the buyer journey — from real AI answers.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "marketing",
       "keywords": ["geo", "aeo", "ai-search", "ai-visibility", "llm-seo", "aiwrness"]
     }
