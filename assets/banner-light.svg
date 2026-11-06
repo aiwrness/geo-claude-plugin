@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+  <title id="t">aiwrness — GEO skills for Claude</title>
+  <desc id="d">The aiwrness logo with the line: GEO skills for Claude, powered by real AI visibility data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafbfc"/><stop offset="1" stop-color="#f0edff"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.32" r="0.55"><stop offset="0" stop-color="#d9d1ff" stop-opacity="0.55"/><stop offset="1" stop-color="#d9d1ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="23.5" fill="none" stroke="#e0e5eb"/>
+  <g font-family="'Titillium Web','Inter','Segoe UI',system-ui,-apple-system,sans-serif">
+    <g transform="translate(434 62) scale(0.4)" fill="#6c4cf5"><path d="M146.16 57.26 C105.96 70.56 79.86 79.56 77.36 81.26 C68.16 87.26 63.86 97.26 64.56 110.86 C65.06 122.36 68.76 130.26 77.26 138.06 C84.76 145.06 91.56 147.36 101.26 146.46 C108.96 145.76 113.86 144.16 144.36 132.36 C156.76 127.56 172.96 121.46 180.36 118.66 C194.86 113.36 199.06 110.86 202.96 104.86 C205.66 100.86 219.26 49.36 219.36 43.16 C219.36 39.76 215.56 35.76 212.46 35.96 C211.56 35.96 181.76 45.66 146.16 57.26 Z"/><path d="M153.06 141.86 C126.06 152.36 112.26 157.16 107.56 157.86 C99.76 158.96 91.06 157.86 83.16 154.86 C77.16 152.56 67.86 146.36 64.96 142.66 L62.86 139.86 L59.16 142.36 C54.76 145.36 48.26 154.86 45.36 162.66 C44.16 165.76 42.46 172.36 41.56 177.26 C37.56 200.76 47.26 223.46 61.66 224.06 C66.66 224.26 172.96 189.26 178.06 185.76 C184.96 180.96 186.86 175.66 189.86 152.36 C191.26 141.36 192.66 131.16 192.96 129.56 C193.26 128.06 193.16 126.86 192.66 126.86 C192.26 126.96 174.46 133.66 153.06 141.86 Z"/></g>
+    <text x="548" y="127" font-size="76" font-weight="700" letter-spacing="-2"><tspan fill="#6c4cf5">ai</tspan><tspan fill="#151d28">wrness</tspan></text>
+    <text x="640" y="212" text-anchor="middle" font-size="40" font-weight="700" fill="#151d28" letter-spacing="-0.5">GEO skills for Claude</text>
+    <text x="640" y="262" text-anchor="middle" font-size="22" fill="#58667b">Measure, understand and grow your brand's visibility in AI answers — with real data.</text>
+    <rect x="317" y="318" width="118" height="38" rx="19" fill="#ffffff" stroke="#e0e5eb"/><text x="376" y="343" text-anchor="middle" font-size="17" font-weight="500" fill="#3b3f4a">ChatGPT</text><rect x="449" y="318" width="128" height="38" rx="19" fill="#ffffff" stroke="#e0e5eb"/><text x="513" y="343" text-anchor="middle" font-size="17" font-weight="500" fill="#3b3f4a">Perplexity</text><rect x="591" y="318" width="96" height="38" rx="19" fill="#ffffff" stroke="#e0e5eb"/><text x="639" y="343" text-anchor="middle" font-size="17" font-weight="500" fill="#3b3f4a">Claude</text><rect x="701" y="318" width="98" height="38" rx="19" fill="#ffffff" stroke="#e0e5eb"/><text x="750" y="343" text-anchor="middle" font-size="17" font-weight="500" fill="#3b3f4a">Gemini</text><rect x="813" y="318" width="150" height="38" rx="19" fill="#ffffff" stroke="#e0e5eb"/><text x="888" y="343" text-anchor="middle" font-size="17" font-weight="500" fill="#3b3f4a">AI Overviews</text>
+  </g>
+</svg>
