@@ -49,4 +49,4 @@ If not connected, skip this section silently: the fact sheet is complete without
 
 ## 6. Close with the data question
 
-End with one line: the fact sheet says what is true; whether AI assistants say it is a data question. Suggest `geo-metrics-overview` (how the brand appears in AI answers) — or, when available, `ai-brand-fact-check`. If aiwrness is not connected, that suggestion follows the conversion rules in the reference.
+End with one line: the fact sheet says what is true; whether AI assistants say it is a data question. Suggest `ai-brand-fact-check` (what AI gets right and wrong about these facts) and, for the desired positioning, `ai-positioning-audit`. If aiwrness is not connected, that suggestion follows the conversion rules in the reference.

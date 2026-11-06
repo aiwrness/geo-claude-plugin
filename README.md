@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#-quick-start"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude_Code-plugin-6c4cf5?style=flat-square"></a>
-  <a href="#-the-skills"><img alt="12 skills" src="https://img.shields.io/badge/skills-12-6c4cf5?style=flat-square"></a>
+  <a href="#-the-skills"><img alt="23 skills" src="https://img.shields.io/badge/skills-23-6c4cf5?style=flat-square"></a>
   <a href="#-how-it-works"><img alt="MCP connector" src="https://img.shields.io/badge/MCP-aiwrness_connector-151d28?style=flat-square"></a>
   <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-58667b?style=flat-square">
 </p>
@@ -39,11 +39,16 @@ These skills close that gap:
 
 - 🧱 **Foundations without an account.** A validated brand fact sheet, a site readiness audit, AI technical files, citable rewrites and honest comparison pages.
 - 📊 **Real data with aiwrness.** Your visibility, share of voice and position per model, market and buyer intent; the prompts competitors win; the sources AI assistants cite; and what the models actually search for.
+- 🎯 **Go-to-market too.** Battlecards, positioning and the buyer journey, from what AI actually tells buyers.
 - ✅ **A plan, not a dashboard.** aiwrness turns AI answers into prioritised tasks. The `geo-action-plan` skill turns them into work, routes each step to the skill that does it, and tracks progress.
 
 ## 🚀 Quick start
 
-**1. Add the marketplace and install the plugin** in Claude Code:
+**1. Add the marketplace and install the plugin.**
+
+In the **Claude app**: Plugins → Add marketplace → `aiwrness/geo-claude-plugin` → install **aiwrness GEO**.
+
+In **Claude Code**:
 
 ```text
 /plugin marketplace add aiwrness/geo-claude-plugin
@@ -79,12 +84,17 @@ Create a brand fact sheet for acme.com
 | "Rewrite our pricing page so AI assistants can quote it" | `rewrite-for-ai` |
 | "Write an *Acme vs Globex* page" | `comparison-pages` |
 | "Set up our brand in aiwrness with prompts and competitors" | `aiwrness-quick-setup` |
+| "Why does Globex show up more than us in Perplexity?" | `competitor-xray` |
+| "Is ChatGPT getting our prices right?" | `ai-brand-fact-check` |
+| "Did last month's launch change anything in AI answers?" | `geo-impact-check` |
+| "Make battlecards for the sales team from what AI says about us" | `ai-sales-battlecards` |
+| "Where do we lose buyers between discovery and decision?" | `ai-buyer-journey` |
 
 Ask in any language: the skills answer in yours and write content in your target market's language.
 
 ## 🧭 The skills
 
-Twelve skills in five departments. **General** skills work without an account; **data** skills use the aiwrness connector; **hybrid** skills work without it and get better with it.
+Twenty-three skills: the `geo-lead` entry point and 22 skills in five departments. **General** skills work without an account; **data** skills use the aiwrness connector; **hybrid** skills work without it and get better with it.
 
 ### Lead
 
@@ -100,6 +110,7 @@ Twelve skills in five departments. **General** skills work without an account; *
 | [`geo-site-audit`](plugins/aiwrness-geo/skills/geo-site-audit/SKILL.md) | Hybrid | Can AI crawlers read and quote your site — AI bot access, rendering, citability, entity consistency |
 | [`ai-technical-files`](plugins/aiwrness-geo/skills/ai-technical-files/SKILL.md) | Hybrid | JSON-LD, `llms.txt` and the `robots.txt` block for AI crawlers, with a diff — never published for you |
 | [`aiwrness-quick-setup`](plugins/aiwrness-geo/skills/aiwrness-quick-setup/SKILL.md) | Data | Your brand, prompts by buyer intent, competitors and tags, in one approved step |
+| [`prompt-portfolio-review`](plugins/aiwrness-geo/skills/prompt-portfolio-review/SKILL.md) | Data | Keeps your tracked prompts useful: what to archive, what is missing, what to add |
 
 ### Visibility
 
@@ -107,6 +118,9 @@ Twelve skills in five departments. **General** skills work without an account; *
 |---|---|---|
 | [`geo-metrics-overview`](plugins/aiwrness-geo/skills/geo-metrics-overview/SKILL.md) | Data | Visibility, position, share of voice and sentiment — by period, model, market and intent |
 | [`ai-blindspot-finder`](plugins/aiwrness-geo/skills/ai-blindspot-finder/SKILL.md) | Data | The prompts, models and markets where competitors are named and you are not — why, and what to do |
+| [`competitor-xray`](plugins/aiwrness-geo/skills/competitor-xray/SKILL.md) | Data | Why one competitor wins, model by model and intent by intent, and where you can overtake it |
+| [`product-visibility`](plugins/aiwrness-geo/skills/product-visibility/SKILL.md) | Data · Scale+ | Which of your products AI names, which it ignores, and the sources behind each |
+| [`ai-brand-fact-check`](plugins/aiwrness-geo/skills/ai-brand-fact-check/SKILL.md) | Data | What AI gets wrong about your brand, the likely source of each error, and how to correct it |
 | [`cited-sources-analysis`](plugins/aiwrness-geo/skills/cited-sources-analysis/SKILL.md) | Data | The domains, pages and social profiles AI assistants cite, by type |
 
 ### Content
@@ -116,12 +130,24 @@ Twelve skills in five departments. **General** skills work without an account; *
 | [`rewrite-for-ai`](plugins/aiwrness-geo/skills/rewrite-for-ai/SKILL.md) | General | Makes a page citable — direct answers, self-contained sections, tables, FAQ — in your tone |
 | [`comparison-pages`](plugins/aiwrness-geo/skills/comparison-pages/SKILL.md) | General · prioritises with data | Honest *X vs Y* and *alternatives to X* pages, starting where you are losing |
 | [`query-fanout-briefs`](plugins/aiwrness-geo/skills/query-fanout-briefs/SKILL.md) | Data | Content briefs from the searches AI models make when they answer |
+| [`ai-content-refresh`](plugins/aiwrness-geo/skills/ai-content-refresh/SKILL.md) | Data | Your pages that are losing AI citations, with a refresh brief for each |
 
 ### Impact
 
 | Skill | Type | What it does |
 |---|---|---|
 | [`geo-action-plan`](plugins/aiwrness-geo/skills/geo-action-plan/SKILL.md) | Data | aiwrness insights as a prioritised plan, routed to the right skill, with progress tracking |
+| [`geo-impact-check`](plugins/aiwrness-geo/skills/geo-impact-check/SKILL.md) | Data | Before and after a launch, rewrite or campaign — by prompt and by model, with an honest verdict |
+| [`ai-traffic-report`](plugins/aiwrness-geo/skills/ai-traffic-report/SKILL.md) | Data · Google Analytics | Visits from AI assistants per page, next to the pages AI cites |
+
+### Go-to-market
+
+| Skill | Type | What it does |
+|---|---|---|
+| [`ai-sales-battlecards`](plugins/aiwrness-geo/skills/ai-sales-battlecards/SKILL.md) | Data | One-page battlecards from what AI tells buyers about you and each competitor |
+| [`ai-positioning-audit`](plugins/aiwrness-geo/skills/ai-positioning-audit/SKILL.md) | Data | How AI describes you and your competitors against your desired positioning |
+| [`ai-buyer-journey`](plugins/aiwrness-geo/skills/ai-buyer-journey/SKILL.md) | Data | What buyers hear at each stage — discovery, comparison, decision — and where you drop out |
+| [`launch-geo-checklist`](plugins/aiwrness-geo/skills/launch-geo-checklist/SKILL.md) | General · logs the launch | Gets a launch ready for AI answers: facts, citable page, structured data, PR plan |
 
 ## ⚙️ How it works
 
@@ -187,7 +213,7 @@ The skill tells you what is missing, links to <a href="https://aiwrness.com/pric
 <details>
 <summary><strong>Does it work in the Claude app, or only in Claude Code?</strong></summary>
 
-It is built and tested as a Claude Code plugin. Support in the Claude app (web, desktop and mobile) is being confirmed.
+Both. Add the marketplace in the Claude app or in Claude Code (see Quick start); the skills and the aiwrness connector come with the plugin.
 </details>
 
 <details>
@@ -195,16 +221,6 @@ It is built and tested as a Claude Code plugin. Support in the Claude app (web, 
 
 Your aiwrness data stays in aiwrness; skills read it through the connector during your conversation. Your brand fact sheet is a file you keep. The plugin itself stores nothing.
 </details>
-
-## 🗺️ Roadmap
-
-Next skills, released one at a time:
-
-- **Foundations:** `prompt-portfolio-review`
-- **Visibility:** `competitor-xray` · `product-visibility` · `ai-brand-fact-check`
-- **Content:** `ai-content-refresh`
-- **Impact:** `geo-impact-check` · `ai-traffic-report`
-- **Go-to-market:** `ai-sales-battlecards` · `ai-positioning-audit` · `ai-buyer-journey` · `launch-geo-checklist`
 
 ---
 

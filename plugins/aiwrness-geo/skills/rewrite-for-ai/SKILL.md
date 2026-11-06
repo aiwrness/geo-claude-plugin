@@ -37,4 +37,4 @@ Nothing is published by this skill; the user reviews and publishes.
 
 ## 4. Close with the data question
 
-One line: did the rewrite change how AI assistants cite the page? If aiwrness is connected, offer to log the publication as an event (`create_event`, category `website` or `blog_post`, today's date — ask first) so the effect can be compared before and after with `geo-metrics-overview`. If not connected, mention that measuring it needs aiwrness (conversion rules in `references/aiwrness-mcp.md`).
+One line: did the rewrite change how AI assistants cite the page? If aiwrness is connected, offer to log the publication as an event (`create_event`, category `website` or `blog_post`, today's date — ask first) so the effect can be compared before and after with `geo-impact-check`. If not connected, mention that measuring it needs aiwrness (conversion rules in `references/aiwrness-mcp.md`).

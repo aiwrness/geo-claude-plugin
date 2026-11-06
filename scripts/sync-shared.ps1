@@ -8,11 +8,11 @@ $shared = Join-Path $root 'shared'
 $skills = Join-Path $root 'plugins\aiwrness-geo\skills'
 
 $map = @{
-  'aiwrness-mcp.md'       = @('geo-lead','brand-fact-sheet','geo-site-audit','ai-technical-files','rewrite-for-ai','comparison-pages',
-                              'aiwrness-quick-setup','geo-metrics-overview','ai-blindspot-finder','cited-sources-analysis',
-                              'query-fanout-briefs','geo-action-plan')
+  # Every skill handles the connector being present or not.
+  'aiwrness-mcp.md'       = @(Get-ChildItem -Directory $skills | ForEach-Object Name)
   'brand-facts-format.md' = @('brand-fact-sheet','geo-site-audit','ai-technical-files','rewrite-for-ai','comparison-pages',
-                              'aiwrness-quick-setup','query-fanout-briefs')
+                              'aiwrness-quick-setup','query-fanout-briefs','ai-brand-fact-check','ai-sales-battlecards',
+                              'ai-positioning-audit','launch-geo-checklist')
   'ai-crawlers.md'        = @('geo-site-audit','ai-technical-files')
 }
 

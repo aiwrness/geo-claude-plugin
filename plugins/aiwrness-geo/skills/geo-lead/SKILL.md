@@ -37,15 +37,24 @@ Offer the general skills that fit the request (section 2). When the user asks fo
 | Foundations | `geo-site-audit` | No (uses the aiwrness audit if available) | asks if AI can read and cite the site |
 | Foundations | `ai-technical-files` | No (uses the audit if available) | needs JSON-LD, llms.txt or a robots.txt block for AI bots |
 | Foundations | `aiwrness-quick-setup` | Yes | is starting with aiwrness, or adding prompts, competitors or tags |
+| Foundations | `prompt-portfolio-review` | Yes | wants to review, clean up or rebalance the tracked prompts |
 | Visibility | `geo-metrics-overview` | Yes | asks about numbers: visibility, position, share of voice, by model, market, intent or period |
 | Visibility | `ai-blindspot-finder` | Yes | asks where competitors appear and the brand does not |
+| Visibility | `competitor-xray` | Yes | asks why one competitor wins, model by model |
+| Visibility | `product-visibility` | Yes (Scale+) | asks which of its products AI names or ignores |
+| Visibility | `ai-brand-fact-check` | Yes | asks whether AI gets the brand's facts right |
 | Visibility | `cited-sources-analysis` | Yes | asks which sites and profiles AI assistants cite |
 | Content | `rewrite-for-ai` | No | wants a page or text made citable |
 | Content | `comparison-pages` | No (prioritises with data) | wants "X vs Y" or "alternatives to X" pages |
 | Content | `query-fanout-briefs` | Yes | asks what content to create from what AI models search for |
+| Content | `ai-content-refresh` | Yes | asks which pages are losing AI citations and need updating |
 | Impact | `geo-action-plan` | Yes | asks "what should we do?", or wants to work through the aiwrness insights |
-
-Coming in later releases (say so if asked; do not improvise them): `prompt-portfolio-review`, `competitor-xray`, `product-visibility`, `ai-brand-fact-check`, `ai-content-refresh`, `geo-impact-check`, `ai-traffic-report`, `ai-sales-battlecards`, `ai-positioning-audit`, `ai-buyer-journey`, `launch-geo-checklist`.
+| Impact | `geo-impact-check` | Yes | asks whether a launch, rewrite, campaign or fix changed anything |
+| Impact | `ai-traffic-report` | Yes + Google Analytics | asks whether AI assistants bring visits |
+| Go-to-market | `ai-sales-battlecards` | Yes | wants battlecards from what AI tells buyers |
+| Go-to-market | `ai-positioning-audit` | Yes | asks how AI describes the brand against its desired positioning |
+| Go-to-market | `ai-buyer-journey` | Yes | asks what buyers hear at each stage: discovery, comparison, decision |
+| Go-to-market | `launch-geo-checklist` | No (logs the launch if connected) | is launching a product, service or rebrand |
 
 ## 3. Suggesting the next skill from the data
 
@@ -57,6 +66,8 @@ Coming in later releases (say so if asked; do not improvise them): `prompt-portf
 | Topics with many searches and low brand presence, or `topic_no_page` insights | `query-fanout-briefs` |
 | No runs yet, or very few prompts | `aiwrness-quick-setup` |
 | The user wants numbers by model, market or period | `geo-metrics-overview` |
+| A competitor clearly leads in one or more models | `competitor-xray` |
+| A recent event (launch, campaign) in the period | `geo-impact-check` |
 | No `brand-facts.md` available | `brand-fact-sheet` first: every other skill reads it |
 
 Offer at most two next steps, the first one being the most useful.
