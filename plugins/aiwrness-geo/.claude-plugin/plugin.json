@@ -1,7 +1,8 @@
 {
   "name": "aiwrness-geo",
+  "displayName": "aiwrness GEO",
   "version": "0.1.0",
-  "description": "GEO skills that work with your real AI visibility data. General skills prepare your brand, site and content; with the aiwrness connector, the data skills measure, find blindspots and turn insights into an action plan.",
+  "description": "23 GEO skills that work with your real AI visibility data. General skills prepare your brand, site, content and launches; with the aiwrness connector, data skills measure visibility, find blindspots, check what AI says about you and your competitors, and turn insights into an action plan.",
   "author": {
     "name": "aiwrness",
     "url": "https://aiwrness.com"
