@@ -10,8 +10,9 @@
   "plugins": [
     {
       "name": "aiwrness-geo",
+      "displayName": "aiwrness GEO",
       "source": "./plugins/aiwrness-geo",
-      "description": "GEO (generative engine optimisation) skills: brand fact sheet, site readiness, AI technical files, rewriting for AI, comparison pages, and — with the aiwrness connector — metrics, blindspots, cited sources, query fan-out briefs and an action plan from real AI answers.",
+      "description": "23 GEO (generative engine optimisation) skills. Without an account: brand fact sheet, site readiness, AI technical files, rewriting for AI, comparison pages and launch checklists. With the aiwrness connector: metrics, blindspots, competitor and product visibility, AI fact checks, cited sources, query fan-out briefs, content refresh, an action plan, impact checks, AI traffic, battlecards, positioning and the buyer journey — from real AI answers.",
       "version": "0.1.0",
       "category": "marketing",
       "keywords": ["geo", "aeo", "ai-search", "ai-visibility", "llm-seo", "aiwrness"]
